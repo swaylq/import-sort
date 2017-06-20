@@ -12,4 +12,4 @@ Sort your import lines automatically.
 
 ### Demo
 
-![](http://qiniu.daguchuangyi.com/sortImport.gif)
+![sortImport](https://gfycat.com/WellwornOrderlyChipmunk)
