@@ -29,7 +29,7 @@ const replaceLines = (document, editorBuilder, sIndex, eIndex) => {
         return 0;
     });
     const newLines = lines.reduce((pre, line) => pre += `${line.text}\n`, '');
-    editorBuilder.replace(new Range(new Position(sIndex, 0), new Position(eIndex, document.lineAt(eIndex).text.length)), newLines.substring(0, newLines.length - 1));
+    editorBuilder.replace(new Range(new Position(sIndex, 0), new Position(eIndex + 1, 0)), newLines);
 };
 
 // this method is called when your extension is activated
